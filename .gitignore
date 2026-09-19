@@ -1,0 +1,32 @@
+# Environment
+.env
+.env.*
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# dbt artifacts
+manifest.json
+run_results.json
+catalog.json
+sources.json
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Dagster
+.dagster/
+storage/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
