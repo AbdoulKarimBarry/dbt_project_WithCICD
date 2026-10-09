@@ -1,0 +1,12 @@
+vars:
+  # The `start_date` variable is accessible to all resources
+  start_date: '2016-06-01'
+  
+  # The `platforms` variable is only accessible to resources in the my_dbt_project project
+  dbt_project_cicd:
+    
+    platforms: ['web', 'mobile']
+  
+  # The `app_ids` variable is only accessible to resources in the snowplow package
+  snowplow:
+    app_ids: ['marketing', 'app', 'landing-page']
